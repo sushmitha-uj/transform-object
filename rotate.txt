@@ -1,0 +1,1 @@
+Write a HTML and CSS code to create an object to spin 360 degree

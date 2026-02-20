@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+              .spin{
+                       background-color: orangered;
+                       height: 200px;
+                       width: 200px;
+                       border-radius:40%;
+                    
+
+              }
+
+              #rotate{
+                        
+                          
+                          border-bottom: 30px solid indigo;
+                          border-top: 30px solid indigo;
+                          border-left:10px solid white;
+                          border-right: 10px solid white;
+                          animation: ani 2.5s linear infinite;
+              }
+                
+              @keyframes ani{
+                                      to{
+                                           transform:rotate(360deg);
+                                      }
+              }
+           
+              div{
+                     margin-top:10%;
+                     margin-left:40%;
+              }
+             
+              
+    </style>
+</head>
+<body>
+    <div class="spin" id="rotate">
+        
+
+    </div>
+</body>
+</html>
